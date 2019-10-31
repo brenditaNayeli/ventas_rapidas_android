@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">appVentas</string>
+    <string name="facebook_application_id">394568451215290</string>
+    <string name="fb_login_protocol_scheme">fb394568451215290</string>
+    <string name="googleloginText">Registrarse</string>
+    <string name="olvidaste_tu_contrase_a"><u>¿Olvidaste tu contraseña?</u></string>
+    <string name="registrate"><u>Registrate</u></string>
+</resources>

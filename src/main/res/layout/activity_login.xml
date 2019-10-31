@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".LoginActivity">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="128dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Télefono"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Contraseña"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+    <TextView
+        android:id="@+id/tvOlvide"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:text="@string/olvidaste_tu_contrase_a"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciar" />
+
+    <Button
+        android:id="@+id/btnIniciar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:text="Iniciar sesión"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+    <Button
+        android:id="@+id/fragment_login_google_login_button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/cardview_light_background"
+        android:drawableLeft="@drawable/googleg_standard_color_18"
+        android:gravity="center"
+
+        android:paddingLeft="20dp"
+        android:text=" Iniciar sesión con Google"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOlvide" />
+
+    <Button
+        android:id="@+id/fragment_login_fb_login_button2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/com_facebook_blue"
+        android:drawableLeft="@drawable/fui_ic_facebook_white_22dp"
+        android:gravity="center"
+        android:paddingLeft="20dp"
+        android:text="Iniciar sesión con Facebook"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_login_google_login_button2" />
+
+    <TextView
+        android:id="@+id/tvOlvide2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center"
+        android:text="@string/registrate"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_login_fb_login_button2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
